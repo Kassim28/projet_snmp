@@ -1,0 +1,31 @@
+{
+    "remote.SSH.remotePlatform": {
+        "jondeauk.etrs712.local.master-stic.fr": "linux",
+        "192.168.141.194": "linux",
+        "192.168.141.121": "linux",
+        "mau-59-serv16.local.univ-savoie.fr": "linux",
+        "192.168.56.101": "linux",
+        "192.168.141.165": "linux",
+        "vps.kasug.me": "linux",
+        "192.168.141.200": "linux",
+        "192.168.1.68": "linux",
+        "192.168.141.170": "linux",
+        "192.168.1.39": "linux",
+        "192.168.141.80": "linux",
+        "192.168.137.134": "linux",
+        "192.168.56.103": "linux",
+        "192.168.56.3": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "python.defaultInterpreterPath": "C:\\Users\\jonde\\anaconda3\\python.exe",
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "php.debug.executablePath": "C:\\Users\\jonde\\OneDrive\\Documents\\Cours\\M1 S8\\ETRS814 - Système répartie\\TP2 - XML RPC",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}

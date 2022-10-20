@@ -1,0 +1,10 @@
+[2022-10-20 13:47:28.092] [remoteagent] [info] Extension host agent started.
+[2022-10-20 13:47:28.774] [remoteagent] [info] [127.0.0.1][8670545a][ManagementConnection] New connection established.
+[2022-10-20 13:47:28.896] [remoteagent] [info] [127.0.0.1][372ab320][ExtensionHostConnection] New connection established.
+[2022-10-20 13:47:28.964] [remoteagent] [info] [127.0.0.1][372ab320][ExtensionHostConnection] <1538> Launched Extension Host Process.
+[2022-10-20 13:47:43.670] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/1512/task/1574/net/dev_snmp6' failed: No such file or directory (EUNKNOWN) (path: /)
+[2022-10-20 13:47:43.670] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/1512/task/1574/net/dev_snmp6' failed: No such file or directory
+[2022-10-20 13:47:44.884] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/1686/task/1686' failed: No such file or directory (EUNKNOWN) (path: /)
+[2022-10-20 13:47:44.884] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/1686/task/1686' failed: No such file or directory
+[2022-10-20 13:47:46.565] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /)
+[2022-10-20 13:48:21.017] [remoteagent] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

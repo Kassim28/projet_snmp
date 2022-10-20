@@ -1,0 +1,12 @@
+{
+    "Equipement": [
+        {
+            "name": "pc1",
+            "type": "host",
+            "adresse IP": "192.168.0.1",
+            "adresse MAC": "00:00:00:00:00:00"
+        }
+    ]
+}
+         
+    

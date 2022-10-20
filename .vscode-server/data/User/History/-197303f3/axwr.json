@@ -1,0 +1,30 @@
+{ "Equipement" : [
+    "Hostname" : "",
+    "Type" : {
+        "OID Réseau" : {
+            "Name" : "",
+            "CPU" : 0,
+            "RAM" : 0,
+            "Uptime" : 0,
+            "Interface" : {
+                "Name" : "",
+                "InBYTES" : 0,
+                "OutBYTES" : 0
+                },
+        "OID Host" : {
+            "Name" : "",
+            "CPU" : 0,
+            "RAM" : 0,
+            "Uptime" : 0,
+            "Interface" : {
+                "Name" : "",
+                "InBYTES" : 0,
+                "OutBYTES" : 0
+                },
+            "Disque" : 0
+            }
+        }
+    },
+    "Adresse IP" : 0,
+    "Communauté SNMP": ""
+]}

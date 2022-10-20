@@ -1,0 +1,134 @@
+[2022-10-19T19:36:56.275Z] Log level: Info
+[2022-10-19T19:36:56.282Z] [info] Validating found git in: git
+[2022-10-19T19:36:56.385Z] [info] Using git 1.8.3.1 from git
+[2022-10-19T19:36:56.498Z] > git rev-parse --show-toplevel [90ms]
+[2022-10-19T19:36:56.498Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:56.986Z] > git rev-parse --show-toplevel [424ms]
+[2022-10-19T19:36:57.222Z] > git rev-parse --git-dir --git-common-dir [180ms]
+[2022-10-19T19:36:57.227Z] [info] Open repository: /root
+[2022-10-19T19:36:57.486Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-19T19:36:57.486Z] fatal: Not a git repository (or any parent up to mount point /boot)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-19T19:36:57.503Z] > git rev-parse --show-toplevel [2ms]
+[2022-10-19T19:36:57.503Z] fatal: Not a git repository (or any parent up to mount point /dev)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-19T19:36:57.593Z] > git rev-parse --show-toplevel [73ms]
+[2022-10-19T19:36:57.593Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:57.713Z] > git rev-parse --show-toplevel [71ms]
+[2022-10-19T19:36:57.713Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:57.813Z] > git status -z -uall [424ms]
+[2022-10-19T19:36:57.876Z] > git rev-parse --show-toplevel [81ms]
+[2022-10-19T19:36:57.876Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:57.971Z] > git rev-parse --show-toplevel [3ms]
+[2022-10-19T19:36:57.971Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.024Z] > git symbolic-ref --short HEAD [150ms]
+[2022-10-19T19:36:58.036Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+[2022-10-19T19:36:58.136Z] > git rev-parse --show-toplevel [112ms]
+[2022-10-19T19:36:58.136Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.204Z] > git rev-parse --show-toplevel [41ms]
+[2022-10-19T19:36:58.204Z] fatal: Not a git repository (or any parent up to mount point /proc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-19T19:36:58.227Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [141ms]
+[2022-10-19T19:36:58.227Z] > git fetch [905ms]
+[2022-10-19T19:36:58.227Z] Warning: Permanently added the ECDSA host key for IP address '140.82.121.4' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-19T19:36:58.231Z] > git rev-parse --show-toplevel [5ms]
+[2022-10-19T19:36:58.231Z] fatal: Not a git repository (or any parent up to mount point /run)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-19T19:36:58.259Z] > git remote --verbose [124ms]
+[2022-10-19T19:36:58.270Z] > git rev-parse --show-toplevel [11ms]
+[2022-10-19T19:36:58.270Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.303Z] > git rev-parse --show-toplevel [23ms]
+[2022-10-19T19:36:58.303Z] fatal: Not a git repository (or any parent up to mount point /sys)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-19T19:36:58.309Z] > git rev-parse --show-toplevel [0ms]
+[2022-10-19T19:36:58.309Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.333Z] > git config --get commit.template [30ms]
+[2022-10-19T19:36:58.374Z] > git rev-parse --show-toplevel [41ms]
+[2022-10-19T19:36:58.374Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.397Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-19T19:36:58.397Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:36:58.425Z] > git status -z -uall [55ms]
+[2022-10-19T19:36:58.451Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T19:36:58.462Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-19T19:36:58.503Z] > git remote --verbose [1ms]
+[2022-10-19T19:36:58.504Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [20ms]
+[2022-10-19T19:36:58.538Z] > git config --get commit.template [1ms]
+[2022-10-19T19:36:58.697Z] > git show --textconv :NMS.py [29ms]
+[2022-10-19T19:36:58.697Z] > git ls-files --stage -- /root/NMS.py [1ms]
+[2022-10-19T19:36:58.707Z] > git cat-file -s 32b58ae4f6d92321b32dacd9dc68e8ec04f7acc6 [1ms]
+[2022-10-19T19:36:59.079Z] > git check-ignore -v -z --stdin [8ms]
+[2022-10-19T19:37:04.122Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-19T19:37:04.122Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-19T19:37:04.649Z] > git check-ignore -v -z --stdin [9ms]
+[2022-10-19T19:37:55.072Z] > git check-ignore -v -z --stdin [5ms]
+[2022-10-19T19:38:21.105Z] > git ls-files --stage -- /root/equipment.json [2ms]
+[2022-10-19T19:38:21.140Z] > git show --textconv :equipment.json [62ms]
+[2022-10-19T19:38:21.141Z] > git cat-file -s 9d58c4ae6ad165270ac979965ef2717b149c7743 [1ms]
+[2022-10-19T19:38:23.604Z] > git show --textconv :type.json [11ms]
+[2022-10-19T19:38:23.604Z] > git ls-files --stage -- /root/type.json [3ms]
+[2022-10-19T19:38:23.612Z] > git cat-file -s 5dcd60a8d98a8bc52c195d25b594440e53f4ffdd [1ms]
+[2022-10-19T19:38:27.291Z] > git show --textconv :equipment.json [9ms]
+[2022-10-19T19:38:27.292Z] > git ls-files --stage -- /root/equipment.json [1ms]
+[2022-10-19T19:38:27.297Z] > git cat-file -s 9d58c4ae6ad165270ac979965ef2717b149c7743 [0ms]
+[2022-10-19T19:44:15.673Z] > git fetch [741ms]
+[2022-10-19T19:44:15.673Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-19T19:44:16.597Z] > git show --textconv :type.json [7ms]
+[2022-10-19T19:44:16.598Z] > git ls-files --stage -- /root/type.json [1ms]
+[2022-10-19T19:44:16.608Z] > git cat-file -s 5dcd60a8d98a8bc52c195d25b594440e53f4ffdd [1ms]
+[2022-10-19T19:58:22.075Z] > git fetch [621ms]
+[2022-10-19T19:58:22.075Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-19T19:58:22.755Z] > git show --textconv :equipment.json [18ms]
+[2022-10-19T19:58:22.755Z] > git ls-files --stage -- /root/equipment.json [1ms]
+[2022-10-19T19:58:22.762Z] > git cat-file -s 9d58c4ae6ad165270ac979965ef2717b149c7743 [1ms]
+[2022-10-19T20:06:23.033Z] > git fetch [652ms]
+[2022-10-19T20:06:23.033Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-19T20:06:40.636Z] > git add -A -- . [40ms]
+[2022-10-19T20:06:40.681Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [29ms]
+[2022-10-19T20:06:40.714Z] > git status -z -uall [18ms]
+[2022-10-19T20:06:40.724Z] > git symbolic-ref --short HEAD [0ms]
+[2022-10-19T20:06:40.731Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-19T20:06:40.748Z] > git remote --verbose [1ms]
+[2022-10-19T20:06:40.748Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-19T20:06:40.759Z] > git config --get commit.template [1ms]
+[2022-10-19T20:06:40.769Z] > git config --get commit.template [1ms]
+[2022-10-19T20:06:53.971Z] > git add -A -- . [26ms]
+[2022-10-19T20:06:53.998Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [11ms]
+[2022-10-19T20:06:54.033Z] > git status -z -uall [19ms]
+[2022-10-19T20:06:54.039Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-19T20:06:54.044Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-19T20:06:54.055Z] > git remote --verbose [1ms]
+[2022-10-19T20:06:54.055Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+[2022-10-19T20:06:54.064Z] > git config --get commit.template [1ms]
+[2022-10-19T20:06:54.073Z] > git config --get commit.template [1ms]
+[2022-10-19T20:08:03.723Z] > git show --textconv :equipment.json [10ms]
+[2022-10-19T20:08:03.724Z] > git ls-files --stage -- /root/equipment.json [1ms]
+[2022-10-19T20:08:03.732Z] > git cat-file -s b2ea4a124e3ca02ddd97e01113b187e56134396f [1ms]
+[2022-10-19T20:10:39.289Z] > git fetch [670ms]
+[2022-10-19T20:10:39.289Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-19T20:14:11.944Z] > git fetch [699ms]
+[2022-10-19T20:14:11.944Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

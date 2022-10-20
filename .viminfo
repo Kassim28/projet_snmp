@@ -1,0 +1,164 @@
+# Ce fichier viminfo a été généré par Vim 7.4.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Historique ligne de commande (chronologie décroissante) :
+:q
+:wq
+:q!
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Registres :
+
+# Marques dans le fichier :
+'0  4  0  /etc/hosts
+'1  1  2  /etc/hostname
+'2  62  0  /etc/snmp/snmpd.conf.orig
+'3  1  2  /etc/snmp/snmpd.conf
+'4  2  13  /etc/snmp/snmpd.conf
+'5  1  0  /etc/snmp/snmp.conf
+'6  1  0  ~/hello_world.py
+
+# Liste de sauts (le plus récent en premier) :
+-'  4  0  /etc/hosts
+-'  1  0  /etc/hosts
+-'  1  2  /etc/hostname
+-'  62  0  /etc/snmp/snmpd.conf.orig
+-'  1  0  /etc/snmp/snmpd.conf.orig
+-'  1  2  /etc/snmp/snmpd.conf
+-'  2  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  4  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  2  /etc/snmp/snmpd.conf
+-'  2  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  4  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  62  0  /etc/snmp/snmpd.conf.orig
+-'  1  0  /etc/snmp/snmpd.conf.orig
+-'  1  2  /etc/snmp/snmpd.conf
+-'  2  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  4  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  2  /etc/snmp/snmpd.conf
+-'  2  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  4  13  /etc/snmp/snmpd.conf
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+-'  1  0  /etc/snmp/snmp.conf
+-'  1  0  ~/hello_world.py
+-'  1  0  ~/hello_world.py
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> /etc/hosts
+	"	4	0
+	^	4	18
+	.	4	17
+	+	5	0
+	+	4	17
+
+> /etc/hostname
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	2
+
+> /etc/snmp/snmpd.conf.orig
+	"	62	0
+
+> /etc/snmp/snmpd.conf
+	"	1	2
+	^	1	3
+	.	1	3
+	+	19	44
+	+	1	0
+	+	1	14
+	+	1	3
+
+> /etc/snmp/snmp.conf
+	"	1	0
+
+> ~/hello_world.py
+	"	1	0

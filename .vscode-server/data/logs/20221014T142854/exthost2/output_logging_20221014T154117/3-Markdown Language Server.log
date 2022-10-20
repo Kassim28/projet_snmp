@@ -1,0 +1,9 @@
+[Trace 14:54:54.290] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///root/readme.md
+[Trace 14:54:54.291] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 14:54:54.292] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 14:54:54.299] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 14:54:54.351] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 1
+[Debug 14:54:54.351] LinkProvider: compute - file:///root/readme.md
+[Debug 14:54:54.469] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 14:54:54.576] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 1
+[Trace 15:09:16.397] Server: connection.languages.diagnostics.on: file:///root/readme.md

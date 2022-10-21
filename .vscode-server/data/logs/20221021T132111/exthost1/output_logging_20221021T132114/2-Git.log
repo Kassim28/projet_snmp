@@ -794,3 +794,13 @@ and the repository exists.
 [2022-10-21T17:03:34.805Z] > git rev-parse --show-toplevel [0ms]
 [2022-10-21T17:03:34.806Z] fatal: Not a git repository (or any of the parent directories): .git
 [2022-10-21T17:03:35.328Z] > git check-ignore -v -z --stdin [10ms]
+[2022-10-21T17:03:38.822Z] > git add -A -- . [51ms]
+[2022-10-21T17:03:38.860Z] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [15ms]
+[2022-10-21T17:03:38.904Z] > git status -z -uall [26ms]
+[2022-10-21T17:03:38.911Z] > git symbolic-ref --short HEAD [0ms]
+[2022-10-21T17:03:38.916Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-21T17:03:38.922Z] > git rev-list --left-right --count main...origin/main [0ms]
+[2022-10-21T17:03:38.936Z] > git remote --verbose [0ms]
+[2022-10-21T17:03:38.937Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-10-21T17:03:38.945Z] > git config --get commit.template [1ms]
+[2022-10-21T17:03:38.952Z] > git config --get commit.template [0ms]

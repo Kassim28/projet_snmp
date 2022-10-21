@@ -8,7 +8,7 @@ liste_equipements = []
 @app.route('/')
 def start():
     ####################################################################
-    #SNMP WALK LISTE
+    #SNMP WALK
     ####################################################################
     item = 0
 
@@ -17,6 +17,7 @@ def start():
     ObjectType(ObjectIdentity('IF-MIB', 'ifInOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifOutOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifSpeed')),
+    ObjectType(ObjectIdentity('IF-MIB', 'ifPhysAddress')),
     )
     size_oids = len(data)
 
@@ -46,7 +47,7 @@ def start():
         else:
             for varBind in varBinds:
                 print(' = '.join([ x.prettyPrint() for x in varBind ]))
-        for i in range(size_oids-1):
+        for i in range(size_oids -1):
             print("This is the oid value " + str(varBinds[i][1]))
 
 #########################################################################################################

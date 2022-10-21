@@ -8,7 +8,7 @@ liste_equipements = []
 @app.route('/')
 def start():
     ####################################################################
-    #SNMP WALK LISTE
+    #SNMP WALK
     ####################################################################
     item = 0
 
@@ -17,6 +17,7 @@ def start():
     ObjectType(ObjectIdentity('IF-MIB', 'ifInOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifOutOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifSpeed')),
+    ObjectType(ObjectIdentity('IF-MIB', 'ifPhysAddress')),
     )
     size_oids = len(data)
 

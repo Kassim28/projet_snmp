@@ -8,7 +8,7 @@ liste_equipements = []
 @app.route('/')
 def start():
     ####################################################################
-    #SNMP WALK LISTE
+    #SNMP WALK
     ####################################################################
     item = 0
 
@@ -17,8 +17,8 @@ def start():
     ObjectType(ObjectIdentity('IF-MIB', 'ifInOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifOutOctets')),
     ObjectType(ObjectIdentity('IF-MIB', 'ifSpeed')),
+    ObjectType(ObjectIdentity('IF-MIB', 'ifPhysAddress')),
     )
-    size_oids = len(data)
 
     for errorIndication, \
         errorStatus, \
@@ -27,7 +27,7 @@ def start():
                             CommunityData('snmp_kas', mpModel=0),
                             UdpTransportTarget(('pc1', 161)),
                             ContextData(),
-                            *data,
+                            *data),
                             lexicographicMode=False):
 
         print("Item ", item)
@@ -46,8 +46,7 @@ def start():
         else:
             for varBind in varBinds:
                 print(' = '.join([ x.prettyPrint() for x in varBind ]))
-        for i in range(size_oids-1):
-            print("This is the oid value " + str(varBinds[i][1]))
+                print("This is the oid value " + str(varBinds[1][1]))
 
 #########################################################################################################
 # SNMP GET LISTE

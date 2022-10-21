@@ -7,3 +7,8 @@
 [2022-10-21 13:21:21.128] [remoteagent] [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '//proc/1485/task/1544/fd' failed: No such file or directory (EUNKNOWN) (path: /)
 [2022-10-21 13:21:21.128] [remoteagent] [error] [File Watcher (universal)] restarting watcher after error: inotify_add_watch on '//proc/1485/task/1544/fd' failed: No such file or directory
 [2022-10-21 13:21:21.796] [remoteagent] [error] [File Watcher (parcel)] Inotify limit reached (ENOSPC) (path: /)
+[2022-10-21 18:15:06.496] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2022-10-21 18:31:42.733] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+[2022-10-21 18:31:42.733] [remoteagent] [error] Error: connect ECONNREFUSED 127.0.0.1:5000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)

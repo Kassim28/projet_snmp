@@ -7,18 +7,7 @@ app = Flask(__name__)
 liste_equipements = []
 @app.route('/')
 def start():
-    ####################################################################
-    #SNMP WALK LISTE
-    ####################################################################
     item = 0
-
-    data = (
-    ObjectType(ObjectIdentity('IF-MIB', 'ifDescr')),
-    ObjectType(ObjectIdentity('IF-MIB', 'ifInOctets')),
-    ObjectType(ObjectIdentity('IF-MIB', 'ifOutOctets')),
-    ObjectType(ObjectIdentity('IF-MIB', 'ifSpeed')),
-    )
-    size_oids = len(data)
 
     for errorIndication, \
         errorStatus, \
@@ -27,7 +16,12 @@ def start():
                             CommunityData('snmp_kas', mpModel=0),
                             UdpTransportTarget(('pc1', 161)),
                             ContextData(),
-                            *data,
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifDescr')),
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifType')),
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifMtu')),
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifSpeed')),
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifType')),
+                            ObjectType(ObjectIdentity('IF-MIB', 'ifPhysAddress')),
                             lexicographicMode=False):
 
         print("Item ", item)
@@ -46,40 +40,7 @@ def start():
         else:
             for varBind in varBinds:
                 print(' = '.join([ x.prettyPrint() for x in varBind ]))
-        for i in range(size_oids-1):
-            print("This is the oid value " + str(varBinds[i][1]))
 
-#########################################################################################################
-# SNMP GET LISTE
-############################################################################################ 
-    data1 = (
-    ObjectType(ObjectIdentity('DISMAN-EVENT-MIB', 'sysUpTimeInstance')),
-    ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysDescr', 0))
-    )
-
-    g = getCmd(SnmpEngine()
-            , CommunityData('snmp_kas', mpModel=0)
-            , UdpTransportTarget(('pc1', 161))
-            , ContextData()
-            , *data1)
-
-    errorIndication, errorStatus, errorIndex, varBinds = next(g)
-
-    if errorIndication:
-        print(errorIndication)
-    elif errorStatus:
-        print('%s at %s' % (
-                            errorStatus.prettyPrint(),
-                            errorIndex and varBinds[int(errorIndex) - 1][0] or '?'
-                        )
-
-            )
-    else:
-        for varBind in varBinds:
-            test = varBind
-            print(' = '.join([x.prettyPrint() for x in varBind]))
-            print("This is x " + str(varBinds[0][1]))
-#
 """
 class nms:
     def start_supervision():    

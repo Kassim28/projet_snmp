@@ -2,7 +2,7 @@
     "Type_equipement": [
         {
             "type": {
-                "réseau": {
+                "réseau": [{
                     "OIDs": [{
                         "Name": ,
                         "CPU": 0,

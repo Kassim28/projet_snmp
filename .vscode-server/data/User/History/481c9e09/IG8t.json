@@ -1,0 +1,15 @@
+{
+    "Type_equipement": [
+        {
+            "OIDs": [{
+                "Name": "",
+                "CPU": 0,
+                "RAM": 0,
+                "Uptime": 0,
+                "Interface": [{
+                    "Name": ""
+                }]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,403 @@
+[Trace 11:32:45.672] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///root/readme.md
+[Trace 11:32:45.673] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:45.674] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:45.677] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:45.688] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 1
+[Debug 11:32:45.689] LinkProvider: compute - file:///root/readme.md
+[Debug 11:32:45.894] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:45.927] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 1
+[Trace 11:32:46.496] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:46.496] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:46.614] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:46.614] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:46.675] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:46.675] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:46.784] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:46.785] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:46.854] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:46.854] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:47.056] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 6
+[Debug 11:32:47.057] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:47.146] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:47.146] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:47.320] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:47.320] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:47.527] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 8
+[Debug 11:32:47.528] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:47.568] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:47.671] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 8
+[Trace 11:32:47.966] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:47.967] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:48.165] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 9
+[Debug 11:32:48.165] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:48.175] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:48.175] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:48.243] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:48.243] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:48.371] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:48.371] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:48.569] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 12
+[Debug 11:32:48.569] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:48.618] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:48.719] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 12
+[Trace 11:32:48.854] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:48.854] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.012] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.012] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.111] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.111] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.173] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.173] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.267] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.267] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.401] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.401] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:49.599] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 18
+[Debug 11:32:49.599] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:49.610] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.610] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:49.808] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 19
+[Debug 11:32:49.808] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:49.817] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.817] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:49.910] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:49.910] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:50.095] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:50.095] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:50.273] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:50.273] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:50.325] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:50.325] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:50.525] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 24
+[Debug 11:32:50.525] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:50.573] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:50.672] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 24
+[Trace 11:32:50.723] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:50.723] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:50.922] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 25
+[Debug 11:32:50.923] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:51.071] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 25
+[Debug 11:32:51.071] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:51.761] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:51.761] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:51.871] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:51.871] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:51.973] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:51.973] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.160] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.161] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.294] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.294] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.422] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.422] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.465] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.465] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.663] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.664] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.706] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.706] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:52.768] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:52.768] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:52.969] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 35
+[Debug 11:32:52.969] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:53.019] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:53.119] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 35
+[Trace 11:32:53.409] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:53.409] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:53.518] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:53.519] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:53.660] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:53.660] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:53.716] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:53.717] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:53.770] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:53.771] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:53.971] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 40
+[Debug 11:32:53.971] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:54.078] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.078] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:54.098] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.098] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:54.128] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.129] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:54.212] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.212] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:54.302] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.303] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:54.504] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 45
+[Debug 11:32:54.504] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:54.653] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 45
+[Debug 11:32:54.654] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:54.800] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.800] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:54.958] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:54.959] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:55.012] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.012] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:55.198] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.198] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:55.282] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.282] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:55.398] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.398] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:55.480] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.480] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:55.680] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 52
+[Debug 11:32:55.680] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:55.737] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:55.766] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:55.766] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:55.962] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 53
+[Debug 11:32:55.962] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:56.012] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:56.112] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 53
+[Trace 11:32:56.411] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:56.411] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:56.607] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 54
+[Debug 11:32:56.608] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:56.686] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:56.686] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:56.799] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:56.799] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:56.984] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:56.984] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:57.181] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 57
+[Debug 11:32:57.181] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:32:57.235] LinkProvider: compute - file:///root/readme.md
+[Trace 11:32:57.326] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:57.326] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:57.398] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:57.398] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:57.549] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:57.549] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:57.670] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:57.670] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:57.867] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 61
+[Debug 11:32:57.867] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:57.900] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:57.900] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:58.000] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:58.000] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:32:58.163] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:32:58.163] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:32:58.359] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 64
+[Debug 11:32:58.359] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:32:58.509] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 64
+[Debug 11:32:58.509] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:01.378] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:01.378] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:01.432] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:01.432] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:01.532] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:01.532] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:01.769] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 67
+[Debug 11:33:01.769] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:01.769] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:01.769] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:01.959] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 68
+[Debug 11:33:01.959] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:01.970] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:01.970] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:02.164] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 69
+[Debug 11:33:02.164] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:02.216] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:02.314] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 69
+[Trace 11:33:02.730] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:02.730] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:02.837] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:02.837] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:02.931] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:02.931] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:03.091] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.092] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:03.286] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 73
+[Debug 11:33:03.286] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:03.343] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:03.369] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.369] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:03.460] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.460] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:03.629] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.629] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:03.682] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.683] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:03.753] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:03.754] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:03.954] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 78
+[Debug 11:33:03.954] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:04.004] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:04.104] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 78
+[Trace 11:33:04.119] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:04.119] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:04.315] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 79
+[Debug 11:33:04.315] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:04.366] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:04.466] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 79
+[Trace 11:33:04.488] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:04.488] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:04.685] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 80
+[Debug 11:33:04.685] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:04.736] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:04.736] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:04.863] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:04.864] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:05.024] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:05.025] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:05.219] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 83
+[Debug 11:33:05.219] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:05.273] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:05.372] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 83
+[Trace 11:33:05.672] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:05.672] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:05.846] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:05.847] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:06.028] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:06.028] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:06.225] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 86
+[Debug 11:33:06.225] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:06.274] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:06.374] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 86
+[Trace 11:33:07.453] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:07.453] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:07.649] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 87
+[Debug 11:33:07.649] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:07.799] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 87
+[Debug 11:33:07.799] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:10.815] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:10.815] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:11.013] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 88
+[Debug 11:33:11.013] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:11.145] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:11.145] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:11.341] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 89
+[Debug 11:33:11.341] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:11.392] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:11.477] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:11.477] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:11.614] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:11.614] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:11.735] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:11.736] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:11.930] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 92
+[Debug 11:33:11.930] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:11.961] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:11.961] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.112] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.112] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:12.308] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 94
+[Debug 11:33:12.308] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:12.359] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:12.384] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.384] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.512] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.512] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.556] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.556] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.657] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.657] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.713] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.713] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.829] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.829] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:12.899] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:12.899] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:13.101] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 101
+[Debug 11:33:13.101] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:13.145] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:13.245] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 101
+[Trace 11:33:13.345] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.345] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:13.547] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 102
+[Debug 11:33:13.547] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:13.547] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.547] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:13.634] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.634] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:13.718] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.718] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:13.859] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.859] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:13.913] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.913] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:13.985] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:13.985] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:14.049] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.049] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:14.159] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.159] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:14.214] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.214] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:14.321] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.321] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:14.528] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 112
+[Debug 11:33:14.528] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:14.579] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.579] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:14.780] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 113
+[Debug 11:33:14.780] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:14.811] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:14.811] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:15.003] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 114
+[Debug 11:33:15.003] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:15.053] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:15.152] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 114
+[Trace 11:33:15.257] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:15.258] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:15.426] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:15.426] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:15.500] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:15.500] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:15.695] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 117
+[Debug 11:33:15.695] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:15.746] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:15.785] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:15.785] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:15.980] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 118
+[Debug 11:33:15.980] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:16.030] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:16.132] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 118
+[Trace 11:33:18.325] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:18.325] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:18.502] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:18.502] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:18.557] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:18.557] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:18.759] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 121
+[Debug 11:33:18.759] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:18.809] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:18.909] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 121
+[Trace 11:33:18.926] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:18.926] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:19.069] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:19.069] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:19.174] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:19.174] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:19.373] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:19.373] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:19.496] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:19.496] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:19.672] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:19.672] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:19.869] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 127
+[Debug 11:33:19.870] TableOfContentsProvider: create - file:///root/readme.md
+[Trace 11:33:20.019] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 127
+[Debug 11:33:20.019] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:20.374] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:20.374] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:20.471] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:20.471] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:20.630] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:20.630] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Trace 11:33:20.767] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:20.767] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:20.963] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 131
+[Debug 11:33:20.963] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:21.013] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:21.117] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 131
+[Trace 11:33:21.571] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///root/readme.md
+[Trace 11:33:21.571] Server: connection.languages.diagnostics.on: file:///root/readme.md
+[Debug 11:33:21.765] MdFoldingProvider: provideFoldingRanges — file:///root/readme.md 132
+[Debug 11:33:21.765] TableOfContentsProvider: create - file:///root/readme.md
+[Debug 11:33:21.815] LinkProvider: compute - file:///root/readme.md
+[Trace 11:33:21.915] DocumentSymbolProvider: provideDocumentSymbols — file:///root/readme.md 132
+[Trace 11:35:25.527] Server: connection.languages.diagnostics.on: file:///root/readme.md

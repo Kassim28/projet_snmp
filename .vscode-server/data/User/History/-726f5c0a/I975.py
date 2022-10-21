@@ -6,12 +6,11 @@ app = Flask(__name__)
 liste_equipements = []
 @app.route('/')
 def start():
-
+    
 
 
 class nms:
     def start_supervision():    
-        
         
     def stop_supervision():
 

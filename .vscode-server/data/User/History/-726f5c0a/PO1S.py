@@ -7,8 +7,7 @@ app = Flask(__name__)
 liste_equipements = []
 @app.route('/')
 def start():
-    bytes_in = os.system("snmpget -v 1 -c snmp_kas pc1 1.3.6.1.2.1.2.2.1.16.3")
-    return print(bytes_in)
+    type(os.system("snmpget -v 1 -c snmp_kas pc1 1.3.6.1.2.1.2.2.1.16.3"))
 
 """
 class nms:

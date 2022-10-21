@@ -1,0 +1,73 @@
+[2022-10-21T11:21:17.622Z] Log level: Info
+[2022-10-21T11:21:17.632Z] [info] Validating found git in: git
+[2022-10-21T11:21:17.740Z] [info] Using git 1.8.3.1 from git
+[2022-10-21T11:21:17.898Z] > git rev-parse --show-toplevel [117ms]
+[2022-10-21T11:21:17.898Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:17.978Z] > git rev-parse --show-toplevel [43ms]
+[2022-10-21T11:21:17.993Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2022-10-21T11:21:18.000Z] [info] Open repository: /root
+[2022-10-21T11:21:18.108Z] > git rev-parse --show-toplevel [41ms]
+[2022-10-21T11:21:18.108Z] fatal: Not a git repository (or any parent up to mount point /boot)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-21T11:21:18.204Z] > git rev-parse --show-toplevel [69ms]
+[2022-10-21T11:21:18.204Z] fatal: Not a git repository (or any parent up to mount point /dev)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-21T11:21:18.240Z] > git status -z -uall [183ms]
+[2022-10-21T11:21:18.268Z] > git rev-parse --show-toplevel [29ms]
+[2022-10-21T11:21:18.268Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.278Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-21T11:21:18.278Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.293Z] > git symbolic-ref --short HEAD [25ms]
+[2022-10-21T11:21:18.299Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [1ms]
+[2022-10-21T11:21:18.316Z] > git rev-parse --show-toplevel [24ms]
+[2022-10-21T11:21:18.316Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.326Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-21T11:21:18.326Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.336Z] > git rev-list --left-right --count main...origin/main [20ms]
+[2022-10-21T11:21:18.355Z] > git remote --verbose [1ms]
+[2022-10-21T11:21:18.356Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+[2022-10-21T11:21:18.356Z] > git rev-parse --show-toplevel [20ms]
+[2022-10-21T11:21:18.356Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.391Z] > git rev-parse --show-toplevel [21ms]
+[2022-10-21T11:21:18.391Z] fatal: Not a git repository (or any parent up to mount point /proc)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-21T11:21:18.408Z] > git rev-parse --show-toplevel [6ms]
+[2022-10-21T11:21:18.408Z] fatal: Not a git repository (or any parent up to mount point /run)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-21T11:21:18.421Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-21T11:21:18.421Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.434Z] > git config --get commit.template [27ms]
+[2022-10-21T11:21:18.456Z] > git rev-parse --show-toplevel [22ms]
+[2022-10-21T11:21:18.456Z] fatal: Not a git repository (or any parent up to mount point /sys)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[2022-10-21T11:21:18.507Z] > git rev-parse --show-toplevel [34ms]
+[2022-10-21T11:21:18.507Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.518Z] > git status -z -uall [62ms]
+[2022-10-21T11:21:18.536Z] > git rev-parse --show-toplevel [19ms]
+[2022-10-21T11:21:18.536Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.552Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-21T11:21:18.552Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:18.555Z] > git symbolic-ref --short HEAD [20ms]
+[2022-10-21T11:21:18.578Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [3ms]
+[2022-10-21T11:21:18.610Z] > git rev-list --left-right --count main...origin/main [3ms]
+[2022-10-21T11:21:18.661Z] > git remote --verbose [2ms]
+[2022-10-21T11:21:18.661Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [24ms]
+[2022-10-21T11:21:18.685Z] > git config --get commit.template [3ms]
+[2022-10-21T11:21:18.786Z] > git show --textconv :type.json [17ms]
+[2022-10-21T11:21:18.787Z] > git ls-files --stage -- /root/type.json [6ms]
+[2022-10-21T11:21:18.807Z] > git cat-file -s 5dcd60a8d98a8bc52c195d25b594440e53f4ffdd [0ms]
+[2022-10-21T11:21:18.991Z] > git check-ignore -v -z --stdin [7ms]
+[2022-10-21T11:21:19.352Z] > git fetch [1333ms]
+[2022-10-21T11:21:19.394Z] > git status -z -uall [16ms]
+[2022-10-21T11:21:19.404Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-21T11:21:19.417Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-21T11:21:19.429Z] > git rev-list --left-right --count main...origin/main [0ms]
+[2022-10-21T11:21:19.451Z] > git remote --verbose [1ms]
+[2022-10-21T11:21:19.451Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+[2022-10-21T11:21:19.462Z] > git config --get commit.template [0ms]
+[2022-10-21T11:21:31.080Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-21T11:21:31.080Z] fatal: Not a git repository (or any of the parent directories): .git
+[2022-10-21T11:21:34.808Z] > git show --textconv :NMS.py [14ms]
+[2022-10-21T11:21:34.808Z] > git ls-files --stage -- /root/NMS.py [2ms]
+[2022-10-21T11:21:34.835Z] > git cat-file -s 32b58ae4f6d92321b32dacd9dc68e8ec04f7acc6 [1ms]
+[2022-10-21T11:21:35.160Z] > git check-ignore -v -z --stdin [7ms]

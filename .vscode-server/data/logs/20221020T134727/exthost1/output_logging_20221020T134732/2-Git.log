@@ -71,3 +71,17 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+[2022-10-20T11:53:39.399Z] > git fetch [826ms]
+[2022-10-20T11:53:39.399Z] Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2022-10-20T11:57:53.499Z] > git fetch [1684ms]
+[2022-10-20T11:57:53.582Z] > git status -z -uall [61ms]
+[2022-10-20T11:57:53.591Z] > git symbolic-ref --short HEAD [0ms]
+[2022-10-20T11:57:53.602Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/main refs/remotes/main [0ms]
+[2022-10-20T11:57:53.613Z] > git rev-list --left-right --count main...origin/main [0ms]
+[2022-10-20T11:57:53.634Z] > git remote --verbose [2ms]
+[2022-10-20T11:57:53.635Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2022-10-20T11:57:53.650Z] > git config --get commit.template [1ms]

@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   web:
+    image: flask
     build: .
     ports:
-      - "8000:5000"
+      - "8000:55555"

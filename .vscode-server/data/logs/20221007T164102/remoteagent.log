@@ -1,5 +1,0 @@
-[2022-10-07 16:41:02.532] [remoteagent] [info] Extension host agent started.
-[2022-10-07 16:41:02.985] [remoteagent] [info] [127.0.0.1][3622fa69][ManagementConnection] New connection established.
-[2022-10-07 16:41:02.997] [remoteagent] [info] [127.0.0.1][2d49fccf][ExtensionHostConnection] New connection established.
-[2022-10-07 16:41:03.022] [remoteagent] [info] [127.0.0.1][2d49fccf][ExtensionHostConnection] <1488> Launched Extension Host Process.
-[2022-10-07 18:37:47.653] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

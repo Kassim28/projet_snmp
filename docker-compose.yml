@@ -4,4 +4,4 @@ services:
     image: flask
     build: .
     ports:
-      - "8000:55555"
+      - "8001:55555"

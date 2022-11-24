@@ -1,7 +1,8 @@
 version: "3"
 services:
-  web:
+  nms:
     image: flask
     build: .
     ports:
       - "8001:55555"
+    entrypoint: ["flask", "run", "--host=0.0.0.0"]

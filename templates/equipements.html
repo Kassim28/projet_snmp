@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %} Equipement - {% endblock %}
+
+
+
+{% block content %}
+
+<section class="container mt-4">
+    <a href="/equipement/add-equipement" class="btn btn-success"> <i class="fa fa-plus"></i> Ajouter </a>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+            <th scope="col">Action</th>
+        </tr>
+        </thead>
+        <tbody>
+            {% for i in range(10) %}
+        <tr>
+            <th scope="row"> {{ i }} </th>
+            <td>Mark {{i}} </td>
+            <td>Otto {{i}} </td>
+            <td>@mdo {{i}} </td>
+            <td>
+                <a href="/equipement/edit-equipement"><i class="fa fa-pencil text-black m-2"></i></a>
+                <a href="#"><i class="fa fa-trash text-danger m-2"></i></a>
+            </td>
+        </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</section>
+
+{% endblock %}
+
+

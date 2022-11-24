@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template, redirect, request
 from pysnmp.hlapi import *
 import time
 import rrdtool
@@ -111,6 +111,9 @@ def start():
     #
 
 
+
+
+
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     return render_template('index.html')
@@ -121,16 +124,30 @@ def equipemnts():
     return render_template('equipements.html')
 
 
-
+#show add_equipements form
 @app.route('/equipement/add-equipement', methods=['GET', 'POST'])
 def add_equipemnts():
     return render_template('add_equipement.html')
 
 
+@app.route('/equipement/create-equipement', methods=['POST'])
+def create_equipemnts():
+
+    # open json file
+
+    # add new equipement
+
+    # save file
+
+    # close file
+    return redirect('/equipement')
+
+
+
 @app.route('/equipement/edit-equipement', methods=['GET', 'POST'])
 def edit_equipemnts():
     return render_template('edit_equipement.html')
-    
+
 """
 class nms:
     def start_supervision():    

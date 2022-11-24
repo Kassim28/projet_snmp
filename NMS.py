@@ -109,6 +109,28 @@ def start():
                 print(' = '.join([x.prettyPrint() for x in varBind]))
                 print("This is the uptime " + str(round(varBinds[0][1]/100/60)) + " minutes.")
     #
+
+
+@app.route('/index', methods=['GET', 'POST'])
+def index():
+    return render_template('index.html')
+
+
+@app.route('/equipement', methods=['GET', 'POST'])
+def equipemnts():
+    return render_template('equipements.html')
+
+
+
+@app.route('/equipement/add-equipement', methods=['GET', 'POST'])
+def add_equipemnts():
+    return render_template('add_equipement.html')
+
+
+@app.route('/equipement/edit-equipement', methods=['GET', 'POST'])
+def edit_equipemnts():
+    return render_template('edit_equipement.html')
+    
 """
 class nms:
     def start_supervision():    

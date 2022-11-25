@@ -4,11 +4,14 @@ import time
 import pygal
 import mysql.connector as database
 import datetime
+import json
+
 
 app = Flask(__name__)
 
 
 liste_equipements = []
+liste_oid = []
 
 connection = database.connect(
     user="kas",
@@ -29,7 +32,7 @@ def add_data(ip,inoctets,outoctets):
         print(f"Error adding entry to database: {e}")
 
 
-@app.route('/start_supervision')
+@app.route('/supervision', methods=['GET', 'POST'])
 def start():
     ####################################################################
     #SNMP WALK LISTE
@@ -90,7 +93,6 @@ def start():
             print("Out Octets are: " + str(OutOctets))                 
 
                 
-
     #########################################################################################################
     # SNMP GET LISTE
     ############################################################################################ 
@@ -134,27 +136,20 @@ def index():
 
 
 @app.route('/equipement', methods=['GET', 'POST'])
-def equipemnts():
+def equipements():
     return render_template('equipements.html')
 
 
 #show add_equipements form
 @app.route('/equipement/add-equipement', methods=['GET', 'POST'])
-def add_equipemnts():
+def add_equipements():
+    if request.method == "POST":
+        nom = request.form.get("name")
+        adresse_ip = request.form.get("ip")
+        type_equipement = request.form.get("type")
+        liste_equipements.append([nom,adresse_ip,type_equipement])
+        print(liste_equipements)
     return render_template('add_equipement.html')
-
-
-@app.route('/equipement/create-equipement', methods=['POST'])
-def create_equipemnts():
-
-    # open json file
-
-    # add new equipement
-
-    # save file
-
-    # close file
-    return redirect('/equipement')
 
 
 

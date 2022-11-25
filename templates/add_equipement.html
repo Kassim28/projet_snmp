@@ -8,11 +8,11 @@
 <section class="container mt-4">
     <div class="row justify-content-center">
         <div class="mt-3 mb-3"> 
-            <h3> Ajouter un nouveau equipement! </h3>
+            <h3> Ajouter un nouveau equipement: </h3>
         </div>
 
         <div>
-            <form method="POST" action="#">
+            <form method="POST" action="/equipement/add-equipement">
                 
                 <div class="form-group row mb-2">
                     <label for="inputName" class="col-sm-3 col-form-label"> Nom </label>
@@ -22,9 +22,16 @@
                 </div>                        
 
                 <div class="form-group row mb-2">
-                    <label for="inputEmail" class="col-sm-3 col-form-label"> Adresse IP  </label>
+                    <label class="col-sm-3 col-form-label"> Adresse IP  </label>
                     <div class="col-sm-9">
-                        <input type="text" class="form-control" name="ip" id="inputEmail" placeholder="TEXT  *" value="">
+                        <input type="text" class="form-control" name="ip" placeholder="TEXT  *" value="">
+                    </div>
+                </div>
+
+                <div class="form-group row mb-2">
+                    <label class="col-sm-3 col-form-label"> Type d'équipement </label>
+                    <div class="col-sm-9">
+                        <input type="text" class="form-control" name="type" placeholder="hôte ou routeur" value="">
                     </div>
                 </div>
 

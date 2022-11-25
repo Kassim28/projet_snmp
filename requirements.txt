@@ -1,3 +1,5 @@
 flask
 pysnmp
 rrdtool
+pygal
+mariadb

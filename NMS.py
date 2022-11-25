@@ -1,7 +1,8 @@
 from flask import Flask, render_template, redirect, request
 from pysnmp.hlapi import *
 import time
-import rrdtool
+import pygal
+import mariadb
 
 app = Flask(__name__)
 
@@ -12,17 +13,7 @@ def start():
     ####################################################################
     #SNMP WALK LISTE
     ##############################################################
-    rrdtool.create("myrouter.rrd",
-        "DS:input:COUNTER:600:U:U",   
-        "DS:output:COUNTER:600:U:U",  
-        "RRA:AVERAGE:0.5:1:600",      
-        "RRA:AVERAGE:0.5:6:700",      
-        "RRA:AVERAGE:0.5:24:775",     
-        "RRA:AVERAGE:0.5:288:797",    
-        "RRA:MAX:0.5:1:600",          
-        "RRA:MAX:0.5:6:700",          
-        "RRA:MAX:0.5:24:775",         
-        "RRA:MAX:0.5:288:797")
+
 
     while 1==1:
         item = 0
@@ -70,8 +61,8 @@ def start():
                         InOctets = varBinds[i][1]
                     elif i == 2:
                         OutOctets = varBinds[i][1]
-            rrdtool.update("myrouter.rrd", "N:" + str(InOctets) + ":" + str(OutOctets))
-            time.sleep(300)   
+            #rrdtool.update("myrouter.rrd", "N:" + str(InOctets) + ":" + str(OutOctets))
+            time.sleep(10)   
             print("In Octets are: " + str(InOctets))
             print("Out Octets are: " + str(OutOctets))                 
 

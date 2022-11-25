@@ -8,31 +8,32 @@
 
 <section class="container mt-4">
     <a href="/equipement/add-equipement" class="btn btn-success"> <i class="fa fa-plus"></i> Ajouter </a>
-    <table class="table">
-        <thead>
-        <tr>
+    <table class="table"> 
+        <thead> 
+        <tr> 
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Type</th>
+            <th scope="col">Adresse IP</th>
             <th scope="col">Action</th>
-        </tr>
-        </thead>
-        <tbody>
-            {% for i in range(10) %}
-        <tr>
-            <th scope="row"> {{ i }} </th>
-            <td>Mark {{i}} </td>
-            <td>Otto {{i}} </td>
-            <td>@mdo {{i}} </td>
-            <td>
-                <a href="/equipement/edit-equipement"><i class="fa fa-pencil text-black m-2"></i></a>
-                <a href="#"><i class="fa fa-trash text-danger m-2"></i></a>
-            </td>
-        </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+        </tr> 
+        </thead> 
+        <tbody> 
+            {% for i in sqldata %}  
+                <tr> 
+                    <td scope="row"> {{ i[0] }} </td>
+                    <td>{{i[1]}}</td>
+                    <td>{{i[2]}}</td>
+                    <td>{{i[3]}}</td>
+                    <td>
+                        <a href="/equipement/edit-equipement"><i class="fa fa-pencil text-black m-2"></i></a>
+                        <a href="/equipement/{{i[0]}}/delete-equipement"><i class="fa fa-trash text-danger m-2"></i></a>
+                        <a href="http://localhost:3000/d/yaJ4eQOVk/snmp?orgId=1&from=1669364185251&to=1669385785251"><i class="fa fa-bar-chart"></i></a>
+                    </td>
+                </tr> 
+            {% endfor %} 
+        </tbody> 
+    </table> 
 </section>
 
 {% endblock %}

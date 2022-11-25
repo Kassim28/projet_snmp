@@ -5,6 +5,7 @@ import pygal
 import mysql.connector as database
 import datetime
 import json
+import os
 
 
 app = Flask(__name__)
@@ -32,6 +33,7 @@ def add_data(ip,inoctets,outoctets):
         print(f"Error adding entry to database: {e}")
 
 
+
 @app.route('/supervision', methods=['GET', 'POST'])
 def start():
     ####################################################################
@@ -40,6 +42,7 @@ def start():
 
 
     while 1==1:
+
         item = 0
         OutOctets = 0
         InOctets = 0
@@ -88,7 +91,7 @@ def start():
             #rrdtool.update("myrouter.rrd", "N:" + str(InOctets) + ":" + str(OutOctets))
             
             add_data("192.168.56.4",int(InOctets) ,int(OutOctets))
-            time.sleep(10)   
+            time.sleep(60)   
             print("In Octets are: " + str(InOctets))
             print("Out Octets are: " + str(OutOctets))                 
 
@@ -137,25 +140,70 @@ def index():
 
 @app.route('/equipement', methods=['GET', 'POST'])
 def equipements():
-    return render_template('equipements.html')
+    cur.execute("select * from equipements")
+    sqldata = cur.fetchall()
+    return render_template('equipements.html',sqldata=list(sqldata))
 
 
 #show add_equipements form
 @app.route('/equipement/add-equipement', methods=['GET', 'POST'])
 def add_equipements():
+    def add(nom,type_equipement,ip):
+        try:
+            statement = "INSERT INTO equipements (nom,type,ip) VALUES (%s,%s,%s)"
+            data = (nom,type_equipement,ip)
+            cur.execute(statement, data)
+            connection.commit()
+            print("Successfully added entry to database")
+        except database.Error as e:
+            print(f"Error adding entry to database: {e}")
+
     if request.method == "POST":
         nom = request.form.get("name")
         adresse_ip = request.form.get("ip")
         type_equipement = request.form.get("type")
+        add_data(nom,type_equipement,adresse_ip)
         liste_equipements.append([nom,adresse_ip,type_equipement])
-        print(liste_equipements)
+        
     return render_template('add_equipement.html')
-
 
 
 @app.route('/equipement/edit-equipement', methods=['GET', 'POST'])
 def edit_equipemnts():
-    return render_template('edit_equipement.html')
+    def edit():
+        try:
+            update "table_name" set "id" = NULL where "name" = "data"; CHANGE DATA
+            statement = "update equipements set  VALUES (%s)"
+            data = (id)
+            cur.execute(statement, data)
+            connection.commit()
+            print("Successfully deleted entry from database")
+        except database.Error as e:
+            print(f"Error deleting entry from database: {e}")
+
+        if request.method == "POST":
+            nom = request.form.get("name")
+            adresse_ip = request.form.get("ip")
+            type_equipement = request.form.get("type")
+            add_data(nom,type_equipement,adresse_ip)
+            liste_equipements.append([nom,adresse_ip,type_equipement])
+    return redirect('/equipement')
+
+@app.route('/equipement/<id>/delete-equipement', methods=['GET', 'POST'])
+def delete_equipemnts(id):
+    def remove():
+        try:
+            statement = "DELETE FROM equipements (id) VALUES (%s)"
+            data = (id)
+            cur.execute(statement, data)
+            connection.commit()
+            print("Successfully deleted entry from database")
+        except database.Error as e:
+            print(f"Error deleting entry from database: {e}")
+
+    if request.method == "GET":
+        nom = request.form.get("name")
+    return redirect('/equipement')
 
 """
 class nms:
@@ -171,11 +219,7 @@ class gestion_configuration:
     def supprimer_equipement(equipement):
         liste_equipements.append(equipement)
 
-class equipement:
-    def __init__(self,nom,type_equipement,adresse_ip):
-        self.nom = nom
-        self.type_equipement = type_equipement
-        self.adresse_ip = adresse_ip
+
 
 class type_equipement:
     def __init__(self,hostname,cpu,ram,uptime)

@@ -3,11 +3,30 @@ from pysnmp.hlapi import *
 import time
 import pygal
 import mariadb
+import mysql.connector as database
 
 app = Flask(__name__)
 
 
-liste_equipements = []
+liste_equipements = [pc1]
+
+connection = database.connect(
+    user="kas",
+    password="password",
+    host="localhost",
+    database="snmp_collect")
+
+def add_data(ip,inoctets,outoctets):
+    try:
+        statement = "INSERT INTO octets (id,name,inoctets,outoctets) VALUES (%s,%s,%s,%s)"
+        data = (1,ip,inoctets,outoctets)
+        cur.execute(statement, data)
+        connection.commit()
+        print("Successfully added entry to database")
+    except database.Error as e:
+        print(f"Error adding entry to database: {e}")
+
+
 @app.route('/')
 def start():
     ####################################################################
@@ -62,6 +81,7 @@ def start():
                     elif i == 2:
                         OutOctets = varBinds[i][1]
             #rrdtool.update("myrouter.rrd", "N:" + str(InOctets) + ":" + str(OutOctets))
+            add_data("192.168.56.4",InOctets,OutOctets)
             time.sleep(10)   
             print("In Octets are: " + str(InOctets))
             print("Out Octets are: " + str(OutOctets))                 

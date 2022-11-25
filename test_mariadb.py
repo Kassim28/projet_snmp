@@ -12,10 +12,10 @@ connection = database.connect(
 
 cur = connection.cursor()
 
-def add_data():
+def add_data(ip,inoctets,outoctets):
     try:
         statement = "INSERT INTO octets (id,name,inoctets,outoctets) VALUES (%s,%s,%s,%s)"
-        data = (1,"machine a",100,200)
+        data = (1,ip,inoctets,outoctets)
         cur.execute(statement, data)
         connection.commit()
         print("Successfully added entry to database")

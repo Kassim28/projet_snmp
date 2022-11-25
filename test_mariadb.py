@@ -1,31 +1,33 @@
 import os
 import mysql.connector as database
 
-username = os.environ.get("root@localhost")
-password = os.environ.get("")
+#username = os.environ.get("kas")
+#password = os.environ.get("password")
 
 connection = database.connect(
-    user=username,
-    password=password,
+    user="kas",
+    password="password",
     host="localhost",
     database="snmp_collect")
 
 cur = connection.cursor()
 
-def add_data(first_name, last_name):
+def add_data():
     try:
         statement = "INSERT INTO octets (id,name,inoctets,outoctets) VALUES (%s,%s,%s,%s)"
         data = (1,"machine a",100,200)
-        cursor.execute(statement, data)
+        cur.execute(statement, data)
         connection.commit()
         print("Successfully added entry to database")
     except database.Error as e:
         print(f"Error adding entry to database: {e}")
 
+add_data()
+
 def get_data(last_name):
     try:
       statement = "SELECT * FROM octets"
-      cursor.execute(statement)
+      cur.execute(statement)
       print(cursor)
       #for (id,"name","inoctets","outoctets") in cursor:
       #  print(f"Successfully retrieved {first_name}, {last_name}")

@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 
 liste_equipements = []
-liste_oid = []
+liste_oids = []
 
 connection = database.connect(
     user="kas",
@@ -172,7 +172,6 @@ def add_equipements():
 def edit_equipemnts():
     def edit():
         try:
-            update "table_name" set "id" = NULL where "name" = "data"; CHANGE DATA
             statement = "update equipements set  VALUES (%s)"
             data = (id)
             cur.execute(statement, data)
@@ -190,21 +189,52 @@ def edit_equipemnts():
     return redirect('/equipement')
 
 @app.route('/equipement/<id>/delete-equipement', methods=['GET', 'POST'])
-def delete_equipemnts(id):
-    def remove():
-        try:
-            statement = "DELETE FROM equipements (id) VALUES (%s)"
-            data = (id)
-            cur.execute(statement, data)
-            connection.commit()
-            print("Successfully deleted entry from database")
-        except database.Error as e:
-            print(f"Error deleting entry from database: {e}")
-
-    if request.method == "GET":
-        nom = request.form.get("name")
+def delete_equipemnt(id):
+    try:
+        statement = "DELETE FROM equipements WHERE id=" + id
+        cur.execute(statement)
+        connection.commit()
+        print("Successfully deleted entry from database")
+    except database.Error as e:
+        print(f"Error deleting entry from database: {e}")
     return redirect('/equipement')
 
+@app.route('/oid', methods=['GET', 'POST'])
+def oids():
+    cur.execute("select * from oids")
+    sqldata = cur.fetchall()
+    return render_template('oids.html',sqldata=list(sqldata))
+
+@app.route('/equipement/add-oid', methods=['GET', 'POST'])
+def add_oids():
+    def add(desc,oid):
+        try:
+            statement = "INSERT INTO oids (description,oid) VALUES (%s,%s)"
+            data = (desc,oid)
+            cur.execute(statement, data)
+            connection.commit()
+            print("Successfully added entry to database")
+        except database.Error as e:
+            print(f"Error adding entry to database: {e}")
+
+    if request.method == "POST":
+        desc = request.form.get("desc")
+        oid = request.form.get("oid")
+        add(desc,oid)
+        liste_oids.append([desc,oid])
+        
+    return render_template('add_oid.html')
+
+@app.route('/equipement/<id>/delete-oid', methods=['GET', 'POST'])
+def delete_oid(id):
+    try:
+        statement = "DELETE FROM oids WHERE id=" + id
+        cur.execute(statement)
+        connection.commit()
+        print("Successfully deleted entry from database")
+    except database.Error as e:
+        print(f"Error deleting entry from database: {e}")
+    return redirect('/oid')
 """
 class nms:
     def start_supervision():    

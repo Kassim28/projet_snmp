@@ -2,24 +2,26 @@ from flask import Flask, render_template, redirect, request
 from pysnmp.hlapi import *
 import time
 import pygal
-import mariadb
 import mysql.connector as database
+import datetime
 
 app = Flask(__name__)
 
 
-liste_equipements = [pc1]
+liste_equipements = []
 
 connection = database.connect(
     user="kas",
     password="password",
     host="localhost",
-    database="snmp_collect")
+    database="snmp")
+
+cur = connection.cursor()
 
 def add_data(ip,inoctets,outoctets):
     try:
-        statement = "INSERT INTO octets (id,name,inoctets,outoctets) VALUES (%s,%s,%s,%s)"
-        data = (1,ip,inoctets,outoctets)
+        statement = "INSERT INTO octects (ip_address,inoctets,outoctets) VALUES (%s,%s,%s)"
+        data = (ip,inoctets,outoctets)
         cur.execute(statement, data)
         connection.commit()
         print("Successfully added entry to database")
@@ -27,7 +29,7 @@ def add_data(ip,inoctets,outoctets):
         print(f"Error adding entry to database: {e}")
 
 
-@app.route('/')
+@app.route('/start_supervision')
 def start():
     ####################################################################
     #SNMP WALK LISTE
@@ -81,7 +83,8 @@ def start():
                     elif i == 2:
                         OutOctets = varBinds[i][1]
             #rrdtool.update("myrouter.rrd", "N:" + str(InOctets) + ":" + str(OutOctets))
-            add_data("192.168.56.4",InOctets,OutOctets)
+            
+            add_data("192.168.56.4",int(InOctets) ,int(OutOctets))
             time.sleep(10)   
             print("In Octets are: " + str(InOctets))
             print("Out Octets are: " + str(OutOctets))                 
@@ -125,7 +128,7 @@ def start():
 
 
 
-@app.route('/index', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def index():
     return render_template('index.html')
 
